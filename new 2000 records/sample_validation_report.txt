@@ -1,0 +1,149 @@
+Original rows: 7,728,394   Sample rows: 2,000   Columns: 46 (all kept)
+
+=== Numeric columns: mean (original vs sample) ===
+Severity                   2.2124        2.2125
+Start_Lat                 36.2012       36.2458
+Start_Lng                -94.7025      -94.6171
+End_Lat                   36.2618       36.1586
+End_Lng                  -95.7256      -95.7738
+Distance(mi)               0.5618        0.5568
+Temperature(F)            61.6633       61.8278
+Wind_Chill(F)             58.2510       58.3275
+Humidity(%)               64.8310       64.4209
+Pressure(in)              29.5390       29.5247
+Visibility(mi)             9.0904        9.1109
+Wind_Speed(mph)            7.6855        7.7144
+Precipitation(in)          0.0084        0.0073
+
+=== Missing-value rate % (original vs sample) ===
+ID                        0.00     0.00
+Source                    0.00     0.00
+Severity                  0.00     0.00
+Start_Time                0.00     0.00
+End_Time                  0.00     0.00
+Start_Lat                 0.00     0.00
+Start_Lng                 0.00     0.00
+End_Lat                  44.03    43.55
+End_Lng                  44.03    43.55
+Distance(mi)              0.00     0.00
+Description               0.00     0.00
+Street                    0.14     0.20
+City                      0.00     0.00
+County                    0.00     0.00
+State                     0.00     0.00
+Zipcode                   0.02     0.00
+Country                   0.00     0.00
+Timezone                  0.10     0.05
+Airport_Code              0.29     0.20
+Weather_Timestamp         1.56     1.65
+Temperature(F)            2.12     2.25
+Wind_Chill(F)            25.87    26.10
+Humidity(%)               2.25     2.35
+Pressure(in)              1.82     1.85
+Visibility(mi)            2.29     2.60
+Wind_Direction            2.27     2.35
+Wind_Speed(mph)           7.39     7.60
+Precipitation(in)        28.51    29.60
+Weather_Condition         2.24     2.50
+Amenity                   0.00     0.00
+Bump                      0.00     0.00
+Crossing                  0.00     0.00
+Give_Way                  0.00     0.00
+Junction                  0.00     0.00
+No_Exit                   0.00     0.00
+Railway                   0.00     0.00
+Roundabout                0.00     0.00
+Station                   0.00     0.00
+Stop                      0.00     0.00
+Traffic_Calming           0.00     0.00
+Traffic_Signal            0.00     0.00
+Turning_Loop              0.00     0.00
+Sunrise_Sunset            0.30     0.50
+Civil_Twilight            0.30     0.50
+Nautical_Twilight         0.30     0.50
+Astronomical_Twilight     0.30     0.50
+
+=== Severity: % (original vs sample) ===
+2                           79.67    79.70
+3                           16.81    16.80
+4                            2.65     2.65
+1                            0.87     0.85
+
+=== Year: % (original vs sample) ===
+2022                        22.80    22.80
+2021                        20.23    20.20
+2020                        15.25    15.25
+2019                        12.35    12.30
+2018                        11.56    11.60
+2017                         9.29     9.30
+2016                         5.32     5.35
+2023                         3.19     3.20
+
+=== Source: % (original vs sample) ===
+Source1                     55.97    56.45
+Source2                     42.77    42.20
+Source3                      1.26     1.35
+
+=== Timezone: % (original vs sample) ===
+US/Eastern                  46.32    47.00
+US/Pacific                  26.69    26.90
+US/Central                  21.29    20.20
+US/Mountain                  5.59     5.85
+                             0.10     0.05
+
+=== Sunrise_Sunset: % (original vs sample) ===
+Day                         69.03    68.00
+Night                       30.67    31.50
+                             0.30     0.50
+
+=== State: % (original vs sample) ===
+CA                          22.53    23.00
+FL                          11.39    10.45
+TX                           7.54     6.95
+SC                           4.95     5.20
+NY                           4.50     4.45
+NC                           4.38     4.65
+VA                           3.92     4.75
+PA                           3.84     4.00
+MN                           2.49     2.55
+OR                           2.32     2.00
+AZ                           2.21     2.25
+GA                           2.19     2.10
+IL                           2.19     2.30
+TN                           2.17     1.75
+MI                           2.10     1.95
+
+=== Weather_Condition: % (original vs sample) ===
+Fair                        33.13    32.35
+Mostly Cloudy               13.15    13.50
+Cloudy                      10.57    10.70
+Clear                       10.46    10.65
+Partly Cloudy                9.04     9.40
+Overcast                     4.95     4.35
+Light Rain                   4.57     4.70
+Scattered Clouds             2.65     2.70
+                             2.24     2.50
+Light Snow                   1.67     1.35
+Fog                          1.28     1.20
+Rain                         1.09     1.40
+Haze                         0.99     1.15
+Fair / Windy                 0.46     0.40
+Heavy Rain                   0.42     0.20
+
+=== Traffic_Signal: % (original vs sample) ===
+False                       85.20    85.30
+True                        14.80    14.70
+
+=== Crossing: % (original vs sample) ===
+False                       88.69    88.80
+True                        11.31    11.20
+
+=== Junction: % (original vs sample) ===
+False                       92.61    93.25
+True                         7.39     6.75
+
+=== Stop: % (original vs sample) ===
+False                       97.23    97.95
+True                         2.77     2.05
+
+States in original: 49, in sample: 44
